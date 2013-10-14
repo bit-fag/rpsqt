@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>img/100px-Rock-paper-scissors_(paper).png</file>
+        <file>img/100px-Rock-paper-scissors_(rock).png</file>
+        <file>img/100px-Rock-paper-scissors_(scissors).png</file>
+        <file>img/icon_scissors.ico</file>
+        <file>img/icon_scissors.png</file>
+    </qresource>
+</RCC>
