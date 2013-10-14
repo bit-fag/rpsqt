@@ -19,6 +19,7 @@ private:
     Ui::MainWindow *ui;
 
 private slots:
+    void on_randomPushButton_clicked();
     void on_copyMyHashButton_clicked();
     void on_copyMyCleartextButton_clicked();
 };

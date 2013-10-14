@@ -15,6 +15,18 @@ MainWindow::~MainWindow()
     delete ui;
 }
 
+void MainWindow::on_randomPushButton_clicked()
+{
+    int random = qrand() % 3;
+    if (random == 0) {
+        ui->rockRadioButton->click();
+    } else if (random == 1) {
+        ui->paperRadioButton->click();
+    } else {
+        ui->scissorsRadioButton->click();
+    }
+}
+
 void MainWindow::on_copyMyHashButton_clicked()
 {
     QApplication::clipboard()->setText(ui->myHashLineEdit->text());
