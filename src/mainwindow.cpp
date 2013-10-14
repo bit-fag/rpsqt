@@ -18,13 +18,25 @@ MainWindow::~MainWindow()
 void MainWindow::on_randomPushButton_clicked()
 {
     int random = qrand() % 3;
-    if (random == 0) {
+    if (random == ROCK) {
         ui->rockRadioButton->click();
-    } else if (random == 1) {
+    } else if (random == PAPER) {
         ui->paperRadioButton->click();
-    } else {
+    } else if (random == SCISSORS) {
         ui->scissorsRadioButton->click();
     }
+}
+
+void MainWindow::on_rockRadioButton_clicked()
+{
+}
+
+void MainWindow::on_paperRadioButton_clicked()
+{
+}
+
+void MainWindow::on_scissorsRadioButton_clicked()
+{
 }
 
 void MainWindow::on_copyMyHashButton_clicked()
