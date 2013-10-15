@@ -33,3 +33,11 @@ Steps:
  * Игроки посылают открытые тексты друг другу.
  * Игроки убеждаются, что хеш-сумма оппонента соответствует его открытому тексту.
  * Теперь оба знают, кто победил.
+
+!(http://i.imgur.com/2cVMWX0.png "Start two instances of the game")
+!(http://i.imgur.com/5wYnI6z.png "Select Rock in first instance")
+!(http://i.imgur.com/HBpwvSB.png "Select Scissors in second instance")
+!(http://i.imgur.com/OmdsaL8.png "Paste hash from first instance to second")
+!(http://i.imgur.com/2wnOqUu.png "Paste hash from second instance to first")
+!(http://i.imgur.com/WEHWzd3.png "Paste cleartexr from first instance to second. Get result")
+!(http://i.imgur.com/gH5owZZ.png "Paste cleartexr from second instance to first. Get result")
