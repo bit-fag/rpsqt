@@ -72,7 +72,11 @@ QString sha1sum(QString arg) {
 }
 
 QString randomString() {
-    return sha1sum(QString::number(qrand()));
+    QString random_text;
+    for (int i = 0; i < 100; i++) {
+        random_text += QString::number(qrand());
+    }
+    return sha1sum(random_text);
 }
 
 QString choiceLetter(Choice choice) {
