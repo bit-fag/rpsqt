@@ -24,7 +24,7 @@
     <normaloff>:/img/icon_scissors.png</normaloff>:/img/icon_scissors.png</iconset>
   </property>
   <widget class="QWidget" name="centralWidget">
-   <layout class="QVBoxLayout" name="verticalLayout" stretch="0,1,0,0">
+   <layout class="QVBoxLayout" name="verticalLayout" stretch="0,1,0,0,0">
     <item>
      <layout class="QHBoxLayout" name="choiceLayout">
       <item>
@@ -195,6 +195,21 @@
      <widget class="QPushButton" name="newGameButton">
       <property name="text">
        <string>New game</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="donateLabel">
+      <property name="toolTip">
+       <string>Contributions let me work at things like this
+instead of earning money IRL.
+More contributions =&gt; more funny applications</string>
+      </property>
+      <property name="text">
+       <string>Your contribution to address 1N8kkCSKFc18LEtBLLSdoa35cdxsLRvLXM is highly appreciated</string>
+      </property>
+      <property name="textInteractionFlags">
+       <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByMouse</set>
       </property>
      </widget>
     </item>

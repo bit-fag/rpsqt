@@ -65,6 +65,7 @@ void MainWindow::newGame()
     ui->randomPushButton->setEnabled(true);
     ui->resultLabel->setText("");
     ui->resultLabel->hide();
+    ui->donateLabel->hide();
 }
 
 QString sha1sum(QString arg) {
@@ -231,6 +232,7 @@ void MainWindow::on_opponentCleartextLineEdit_textEdited(QString opponent_cleart
     ui->resultLabel->setStyleSheet("QLabel { color : " + foreground.name() +
         "; font-weight: 600; font-size: 14pt; }");
     ui->resultLabel->show();
+    ui->donateLabel->show();
 }
 
 void MainWindow::on_newGameButton_clicked()
