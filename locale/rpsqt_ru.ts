@@ -41,6 +41,18 @@
         <translation>Копировать</translation>
     </message>
     <message>
+        <location filename="../ui/mainwindow.ui" line="218"/>
+        <source>Contributions let me work at things like this
+instead of earning money IRL.
+More contributions =&gt; more funny applications</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/mainwindow.ui" line="223"/>
+        <source>Your contribution to address 1N8kkCSKFc18LEtBLLSdoa35cdxsLRvLXM is highly appreciated</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../ui/mainwindow.ui" line="128"/>
         <location filename="../ui/mainwindow.ui" line="159"/>
         <source>Send this:</source>
@@ -52,42 +64,47 @@
         <translation>Результат</translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.ui" line="197"/>
+        <location filename="../ui/mainwindow.ui" line="199"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/bit-fag/rpsqt&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;Homepage&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/mainwindow.ui" line="209"/>
         <source>New game</source>
         <translation>Новая игра</translation>
     </message>
     <message>
-        <location filename="../src/mainwindow.cpp" line="132"/>
+        <location filename="../src/mainwindow.cpp" line="133"/>
         <source>You entered your own hash!</source>
         <translation>Вы ввели свой собственный хеш!</translation>
     </message>
     <message>
-        <location filename="../src/mainwindow.cpp" line="201"/>
+        <location filename="../src/mainwindow.cpp" line="202"/>
         <source>You entered your own cleartext!</source>
         <translation>Вы ввели свой открытый текст!</translation>
     </message>
     <message>
-        <location filename="../src/mainwindow.cpp" line="213"/>
+        <location filename="../src/mainwindow.cpp" line="214"/>
         <source>Draw: </source>
         <translation>Ничья: </translation>
     </message>
     <message>
-        <location filename="../src/mainwindow.cpp" line="216"/>
+        <location filename="../src/mainwindow.cpp" line="217"/>
         <source>You won: </source>
         <translation>Вы победили: </translation>
     </message>
     <message>
-        <location filename="../src/mainwindow.cpp" line="219"/>
+        <location filename="../src/mainwindow.cpp" line="220"/>
         <source>Opponent won: </source>
         <translation>Соперник победил: </translation>
     </message>
     <message>
-        <location filename="../src/mainwindow.cpp" line="223"/>
+        <location filename="../src/mainwindow.cpp" line="224"/>
         <source>Invalid choice of your opponent! Although he doesn&apos;t cheat</source>
         <translation>Выбор соперника недействителен! Но не похоже, что он пытался сжульничать</translation>
     </message>
     <message>
-        <location filename="../src/mainwindow.cpp" line="227"/>
+        <location filename="../src/mainwindow.cpp" line="228"/>
         <source>Opponent hash FAIL!!! It looks like he cheats</source>
         <translation>Хеш соперника НЕ СХОДИТСЯ!!! Кажется, он жульничает</translation>
     </message>
@@ -95,22 +112,22 @@
 <context>
     <name>QObject</name>
     <message>
-        <location filename="../src/mainwindow.cpp" line="154"/>
+        <location filename="../src/mainwindow.cpp" line="155"/>
         <source>rock</source>
         <translation>камень</translation>
     </message>
     <message>
-        <location filename="../src/mainwindow.cpp" line="156"/>
+        <location filename="../src/mainwindow.cpp" line="157"/>
         <source>paper</source>
         <translation>бумага</translation>
     </message>
     <message>
-        <location filename="../src/mainwindow.cpp" line="158"/>
+        <location filename="../src/mainwindow.cpp" line="159"/>
         <source>scissors</source>
         <translation>ножницы</translation>
     </message>
     <message>
-        <location filename="../src/mainwindow.cpp" line="160"/>
+        <location filename="../src/mainwindow.cpp" line="161"/>
         <source>error</source>
         <translation>ошибка</translation>
     </message>
