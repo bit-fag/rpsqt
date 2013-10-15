@@ -1,4 +1,7 @@
 <RCC>
+    <qresource lang="ru">
+        <file alias="rpsqt.qm">locale/rpsqt_ru.qm</file>
+    </qresource>
     <qresource prefix="/">
         <file>img/100px-Rock-paper-scissors_(paper).png</file>
         <file>img/100px-Rock-paper-scissors_(rock).png</file>
