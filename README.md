@@ -5,6 +5,8 @@ Remote rock-paper-scissors written with Qt
 
 This program should be run be two players comminicating via chat.
 
+See https://github.com/bit-fag/rpsqt/releases for Windows EXE file.
+
 Steps:
 
  * Players choose rock, paper or scissors.
@@ -21,6 +23,9 @@ Steps:
 Удаленная версия игры камень-ножницы-бумага, написанная на Qt
 
 Эту программу запускают два игрока, общающиеся через чат.
+
+На странице https://github.com/bit-fag/rpsqt/releases вы найдёте EXE файл
+для Windows.
 
 Шаги:
 
