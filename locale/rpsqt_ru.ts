@@ -57,27 +57,37 @@
         <translation>Новая игра</translation>
     </message>
     <message>
-        <location filename="../src/mainwindow.cpp" line="189"/>
+        <location filename="../src/mainwindow.cpp" line="132"/>
+        <source>You entered your own hash!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/mainwindow.cpp" line="201"/>
+        <source>You entered your own cleartext!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/mainwindow.cpp" line="213"/>
         <source>Draw: </source>
         <translation>Ничья: </translation>
     </message>
     <message>
-        <location filename="../src/mainwindow.cpp" line="192"/>
+        <location filename="../src/mainwindow.cpp" line="216"/>
         <source>You won: </source>
         <translation>Вы победили: </translation>
     </message>
     <message>
-        <location filename="../src/mainwindow.cpp" line="195"/>
+        <location filename="../src/mainwindow.cpp" line="219"/>
         <source>Opponent won: </source>
         <translation>Соперник победил: </translation>
     </message>
     <message>
-        <location filename="../src/mainwindow.cpp" line="199"/>
+        <location filename="../src/mainwindow.cpp" line="223"/>
         <source>Invalid choice of your opponent! Although he doesn&apos;t cheat</source>
         <translation>Выбор соперника недействителен! Но не похоже, что он пытался сжульничать</translation>
     </message>
     <message>
-        <location filename="../src/mainwindow.cpp" line="203"/>
+        <location filename="../src/mainwindow.cpp" line="227"/>
         <source>Opponent hash FAIL!!! It looks like he cheats</source>
         <translation>Хеш соперника НЕ СХОДИТСЯ!!! Кажется, он жульничает</translation>
     </message>
@@ -85,22 +95,22 @@
 <context>
     <name>QObject</name>
     <message>
-        <location filename="../src/mainwindow.cpp" line="138"/>
+        <location filename="../src/mainwindow.cpp" line="154"/>
         <source>rock</source>
         <translation>камень</translation>
     </message>
     <message>
-        <location filename="../src/mainwindow.cpp" line="140"/>
+        <location filename="../src/mainwindow.cpp" line="156"/>
         <source>paper</source>
         <translation>бумага</translation>
     </message>
     <message>
-        <location filename="../src/mainwindow.cpp" line="142"/>
+        <location filename="../src/mainwindow.cpp" line="158"/>
         <source>scissors</source>
         <translation>ножницы</translation>
     </message>
     <message>
-        <location filename="../src/mainwindow.cpp" line="144"/>
+        <location filename="../src/mainwindow.cpp" line="160"/>
         <source>error</source>
         <translation>ошибка</translation>
     </message>
