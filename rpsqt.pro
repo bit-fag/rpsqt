@@ -23,3 +23,7 @@ TRANSLATIONS += locale/rpsqt_ru.ts
 
 RESOURCES += \
     resources.qrc
+
+win32 {
+    RC_FILE = resource.rc
+}
