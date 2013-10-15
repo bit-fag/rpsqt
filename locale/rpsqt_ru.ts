@@ -59,17 +59,17 @@
     <message>
         <location filename="../src/mainwindow.cpp" line="189"/>
         <source>Draw: </source>
-        <translation>Ничья:</translation>
+        <translation>Ничья: </translation>
     </message>
     <message>
         <location filename="../src/mainwindow.cpp" line="192"/>
         <source>You won: </source>
-        <translation>Вы победили:</translation>
+        <translation>Вы победили: </translation>
     </message>
     <message>
         <location filename="../src/mainwindow.cpp" line="195"/>
         <source>Opponent won: </source>
-        <translation>Соперник победил:</translation>
+        <translation>Соперник победил: </translation>
     </message>
     <message>
         <location filename="../src/mainwindow.cpp" line="199"/>
