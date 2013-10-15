@@ -59,12 +59,12 @@
     <message>
         <location filename="../src/mainwindow.cpp" line="132"/>
         <source>You entered your own hash!</source>
-        <translation type="unfinished"></translation>
+        <translation>Вы ввели свой собственный хеш!</translation>
     </message>
     <message>
         <location filename="../src/mainwindow.cpp" line="201"/>
         <source>You entered your own cleartext!</source>
-        <translation type="unfinished"></translation>
+        <translation>Вы ввели свой открытый текст!</translation>
     </message>
     <message>
         <location filename="../src/mainwindow.cpp" line="213"/>
