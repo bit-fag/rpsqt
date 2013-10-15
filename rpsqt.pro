@@ -19,5 +19,7 @@ HEADERS  += src/mainwindow.h
 
 FORMS    += ui/mainwindow.ui
 
+TRANSLATIONS += locale/rpsqt_ru.ts
+
 RESOURCES += \
     resources.qrc
