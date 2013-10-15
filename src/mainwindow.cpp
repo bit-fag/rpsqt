@@ -127,7 +127,7 @@ void MainWindow::on_copyMyHashButton_clicked()
 
 void MainWindow::on_opponentHashLineEdit_textEdited(QString opponent_hash)
 {
-    opponent_hash_ = opponent_hash;
+    opponent_hash_ = opponent_hash.trimmed();
     ui->myCleartextLabel->show();
     ui->copyMyCleartextButton->show();
     ui->myCleartextLineEdit->show();
@@ -188,6 +188,7 @@ Choice winnerOf(Choice c1, Choice c2) {
 
 void MainWindow::on_opponentCleartextLineEdit_textEdited(QString opponent_cleartext)
 {
+    opponent_cleartext = opponent_cleartext.trimmed();
     QString text = "";
     QColor foreground = Qt::black;
     if (sha1sum(opponent_cleartext) == opponent_hash_) {
