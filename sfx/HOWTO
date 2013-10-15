@@ -1,0 +1,13 @@
+Copy files
+    rpsqt.exe
+    img/icon_scissors_small.ico
+    %QtSDK%\mingw\bin\libgcc_s_dw2-1.dll
+    %QtSDK%\mingw\bin\mingwm10.dll
+    %QtSDK%\Desktop\Qt\4.7.4\mingw\bin\QtCore4.dll
+    %QtSDK%\Desktop\Qt\4.7.4\mingw\bin\QtGui4.dll
+to this dir and run make_sfx.bat.
+
+Unfortunately icon is not set in this mode, maybe
+because of triality of WinRAR instance.
+
+Icon is set in WinRAR GUI mode though.
