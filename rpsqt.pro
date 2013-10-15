@@ -25,5 +25,5 @@ RESOURCES += \
     resources.qrc
 
 win32 {
-    RC_FILE = resource.rc
+    RC_FILE = resources.rc
 }
