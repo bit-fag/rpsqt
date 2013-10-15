@@ -1,1 +1,9 @@
 rpsqt.pro.user
+Makefile
+*.qm
+*.o
+moc_*
+qrc_*
+rpsqt
+rpsqt.exe
+ui_*
