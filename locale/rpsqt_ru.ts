@@ -6,33 +6,33 @@
     <message>
         <location filename="../ui/mainwindow.ui" line="20"/>
         <source>Rock-paper-scissors</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Камень-ножницы-бумага</translation>
     </message>
     <message>
         <location filename="../ui/mainwindow.ui" line="33"/>
         <source>Rock</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Камень</translation>
     </message>
     <message>
         <location filename="../ui/mainwindow.ui" line="44"/>
         <source>Paper</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Бумага</translation>
     </message>
     <message>
         <location filename="../ui/mainwindow.ui" line="55"/>
         <source>Scissors</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Ножницы</translation>
     </message>
     <message>
         <location filename="../ui/mainwindow.ui" line="66"/>
         <source>Random</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Наугад</translation>
     </message>
     <message>
         <location filename="../ui/mainwindow.ui" line="80"/>
         <location filename="../ui/mainwindow.ui" line="94"/>
         <source>Enter what your opponent sent:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Введите текст, присланный соперником:</translation>
     </message>
     <message>
         <location filename="../ui/mainwindow.ui" line="128"/>
