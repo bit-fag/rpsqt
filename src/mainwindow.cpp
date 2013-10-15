@@ -191,7 +191,7 @@ void MainWindow::on_opponentCleartextLineEdit_textEdited(QString opponent_cleart
         if (opponent_choice != INVALID_CHOICE) {
             if (choice_ == opponent_choice) {
                 text = tr("Draw: ") + choiceWord(choice_) + " = " + choiceWord(opponent_choice);
-                foreground = Qt::yellow;
+                foreground = Qt::darkYellow;
             } else if (winnerOf(choice_, opponent_choice) == choice_) {
                 text = tr("You won: ") + choiceWord(choice_) + " > " + choiceWord(opponent_choice);
                 foreground = Qt::green;
