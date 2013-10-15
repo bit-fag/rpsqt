@@ -208,7 +208,8 @@ void MainWindow::on_opponentCleartextLineEdit_textEdited(QString opponent_cleart
         foreground = Qt::red;
     }
     ui->resultLabel->setText(text);
-    ui->resultLabel->setStyleSheet("QLabel { color : " + foreground.name() + "}");
+    ui->resultLabel->setStyleSheet("QLabel { color : " + foreground.name() +
+        "; font-weight: 600; font-size: 14pt; }");
     ui->resultLabel->show();
 }
 
