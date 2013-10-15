@@ -127,11 +127,12 @@ void MainWindow::on_copyMyHashButton_clicked()
 
 void MainWindow::on_opponentHashLineEdit_textEdited(QString opponent_hash)
 {
-    opponent_hash_ = opponent_hash.trimmed();
-    if (opponent_hash_ == myHash()) {
+    opponent_hash = opponent_hash.trimmed();
+    if (opponent_hash == myHash()) {
         ui->opponentHashLineEdit->setText(tr("You entered your own hash!"));
         return;
     }
+    opponent_hash_ = opponent_hash;
     ui->myCleartextLabel->show();
     ui->copyMyCleartextButton->show();
     ui->myCleartextLineEdit->show();
