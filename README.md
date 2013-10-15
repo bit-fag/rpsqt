@@ -52,3 +52,9 @@ Steps:
 ![Step 6](http://i.imgur.com/WEHWzd3.png "Paste cleartexr from first instance to second. Get result")
 
 ![Step 7](http://i.imgur.com/gH5owZZ.png "Paste cleartexr from second instance to first. Get result")
+
+Your contribution to bitcoin address 1N8kkCSKFc18LEtBLLSdoa35cdxsLRvLXM
+is highly appreciated!
+
+Contributions let me work at things like this instead of earning money IRL.
+More contributions => more funny applications
