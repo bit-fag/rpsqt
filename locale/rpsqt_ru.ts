@@ -45,12 +45,15 @@
         <source>Contributions let me work at things like this
 instead of earning money IRL.
 More contributions =&gt; more funny applications</source>
-        <translation type="unfinished"></translation>
+        <translation>Пожертвования позволят мне сконцентрироваться
+на таких программах, а не зарабатывать деньги
+в рельной жизни.
+Больше пожертвований =&gt; больше классных программ</translation>
     </message>
     <message>
         <location filename="../ui/mainwindow.ui" line="223"/>
         <source>Your contribution to address 1N8kkCSKFc18LEtBLLSdoa35cdxsLRvLXM is highly appreciated</source>
-        <translation type="unfinished"></translation>
+        <translation>Пожертвуйте на 1N8kkCSKFc18LEtBLLSdoa35cdxsLRvLXM, чтобы поддержать автора</translation>
     </message>
     <message>
         <location filename="../ui/mainwindow.ui" line="128"/>
@@ -66,7 +69,7 @@ More contributions =&gt; more funny applications</source>
     <message>
         <location filename="../ui/mainwindow.ui" line="199"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/bit-fag/rpsqt&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;Homepage&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/bit-fag/rpsqt&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;Сайт&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../ui/mainwindow.ui" line="209"/>
