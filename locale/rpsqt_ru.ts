@@ -35,17 +35,13 @@
         <translation type="unfinished">Введите текст, присланный соперником:</translation>
     </message>
     <message>
-        <location filename="../ui/mainwindow.ui" line="128"/>
-        <source>Send this first:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="../ui/mainwindow.ui" line="148"/>
         <location filename="../ui/mainwindow.ui" line="179"/>
         <source>Copy</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../ui/mainwindow.ui" line="128"/>
         <location filename="../ui/mainwindow.ui" line="159"/>
         <source>Send this:</source>
         <translation type="unfinished"></translation>
