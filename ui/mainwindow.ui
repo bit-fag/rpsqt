@@ -125,7 +125,7 @@
         <item>
          <widget class="QLabel" name="myHashLabel">
           <property name="text">
-           <string>Send this first:</string>
+           <string>Send this:</string>
           </property>
          </widget>
         </item>
