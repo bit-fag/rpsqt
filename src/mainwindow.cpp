@@ -73,8 +73,12 @@ QString sha1sum(QString arg) {
 
 QString randomString() {
     QString random_text;
-    for (int i = 0; i < 100; i++) {
-        random_text += QString::number(qrand());
+    for (int j = 0; j < 10; j++) {
+        for (int i = 0; i < 10; i++) {
+            random_text += QString::number(qrand());
+        }
+        QTime time = QTime::currentTime();
+        qsrand((uint)time.msec());
     }
     return sha1sum(random_text);
 }
