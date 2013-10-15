@@ -132,6 +132,9 @@ void MainWindow::on_opponentHashLineEdit_textEdited(QString opponent_hash)
         ui->opponentHashLineEdit->setText(tr("You entered your own hash!"));
         return;
     }
+    if (!QRegExp("[0-9a-f]{40}").exactMatch(opponent_hash)) {
+        return;
+    }
     opponent_hash_ = opponent_hash;
     ui->myCleartextLabel->show();
     ui->copyMyCleartextButton->show();
@@ -196,6 +199,9 @@ void MainWindow::on_opponentCleartextLineEdit_textEdited(QString opponent_cleart
     opponent_cleartext = opponent_cleartext.trimmed();
     if (opponent_cleartext == myClearText()) {
         ui->opponentCleartextLineEdit->setText(tr("You entered your own cleartext!"));
+        return;
+    }
+    if (cleartextToChoice(opponent_cleartext) == INVALID_CHOICE) {
         return;
     }
     QString text = "";
